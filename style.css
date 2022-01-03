@@ -158,3 +158,50 @@ footer {
   letter-spacing: 12px;
   text-transform: uppercase;
 }
+
+/* -------------------------
+    PROJECT
+----------------------------*/
+
+#articles .article-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+#articles .article-item .project-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all ease-in-out 0.4s;
+}
+#articles .article-item .project-overlay:hover {
+  opacity: 1;
+}
+#articles .article-item .project-overlay .project-info {
+  padding: 12em 0;
+}
+.project-info h1 {
+  color: #fff;
+  margin: 0;
+}
+.project-info h3 {
+  color: #d9d9d9;
+  margin-top: 0;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.article-item img {
+  transition: all ease-in-out 0.4s;
+}
+.article-item:hover img {
+  transform: scale(1.1);
+}
