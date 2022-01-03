@@ -50,6 +50,18 @@ p {
 }
 
 /* -------------------------
+    GENERAL
+----------------------------*/
+
+#about,
+#project,
+#team,
+#contact,
+footer {
+  background-color: #fff;
+}
+
+/* -------------------------
     MENU
 ----------------------------*/
 
@@ -132,4 +144,17 @@ p {
 }
 #home .home-text {
   z-index: 99;
+}
+
+/* -------------------------
+    ABOUT
+----------------------------*/
+
+#about {
+  position: relative;
+}
+#about h3 {
+  font-size: 14px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
 }
