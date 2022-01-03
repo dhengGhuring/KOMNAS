@@ -78,6 +78,7 @@ p {
   height: 2px;
   background: transparent;
   transition: width 0.3s ease, background-color 0.3s ease;
+  color: #fff;
 }
 .navbar .navbar-nav .nav-link:hover::after {
   width: 100%;
@@ -123,7 +124,7 @@ p {
 }
 #home h1 {
   color: #fff;
-  font-size: 7vw;
+  font-size: 8vw;
   line-height: 1.2em;
 }
 #home p {
