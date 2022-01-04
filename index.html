@@ -149,21 +149,100 @@
       <div class="container py-5">
         <h1 class="text-center">See Other Homework</h1>
         <!-- Swiper -->
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper py-3">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 1 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 2 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 3 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 4 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 5 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 6 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 7 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 8 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 9 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide col-lg-3 col-md-6 col-12">
+              <img src="img/tugas1/t1.jpg" alt="" class="img-fluid" />
+              <div class="Text pt-2">
+                <a href="#">
+                  <h3>Tugas 10 <br /><span>Lorem ipsum dolor sit amet.</span></h3>
+                </a>
+              </div>
+            </div>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -177,9 +256,14 @@
       var swiper = new Swiper('.mySwiper', {
         slidesPerView: 3,
         spaceBetween: 30,
-        slidesPerGroup: 3,
+        slidesPerGroup: 1,
         loop: true,
+        centeredSlides: true,
         loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
