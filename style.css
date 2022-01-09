@@ -238,10 +238,8 @@ footer {
 }
 
 .swiper-slide .Text h3 {
-  color: black;
-  font-weight: 100;
+  font-weight: 200;
 }
 .swiper-slide .Text h3 span {
-  color: black;
   font-weight: 500;
 }
