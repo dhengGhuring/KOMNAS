@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* -------------------------
@@ -86,7 +86,7 @@ footer {
   color: #ffffff;
 }
 .navbar .navbar-nav .nav-link::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 2px;
@@ -237,9 +237,14 @@ footer {
   object-fit: cover;
 }
 
-.swiper-slide .Text h3 {
-  font-weight: 200;
+.swiper-slide .Text a {
+  color: #000;
 }
+
+#group .pembungkus h1 {
+  font-weight: 200 !important;
+}
+
 .swiper-slide .Text h3 span {
-  font-weight: 500;
+  font-weight: 200;
 }
