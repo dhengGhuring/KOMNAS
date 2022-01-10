@@ -1,3 +1,7 @@
+$(window).scroll(function () {
+  $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+});
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,

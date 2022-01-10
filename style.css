@@ -55,6 +55,15 @@ a {
     GENERAL
 ----------------------------*/
 
+.bg {
+  background: transparent;
+  transition: 0.2s ease;
+}
+
+.bg .scrolled {
+  background-color: #4dc47d;
+}
+
 #about,
 #articles,
 #group,

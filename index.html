@@ -36,7 +36,7 @@
     <!-- Navbar -->
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light container py-3 fixed-top"
+        class="navbar navbar-expand-lg navbar-light container py-3 fixed-top bg"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Dheng Ghuring </a>
@@ -323,6 +323,11 @@
               </li>
             </ul>
           </div>
+          <div class="col-md-12 col-12">
+            <div class="copyright-text">
+              <p>Make with <i class="fas fa-heart"></i> Dheng Ghuring</p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -333,6 +338,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      $(window).scroll(function () {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+      });
+    </script>
     <!-- My Script -->
     <script src="script.js"></script>
   </body>
