@@ -276,6 +276,14 @@ footer {
 }
 
 /* -------------------------
+    FOOTER
+----------------------------*/
+
+footer .social-icon li {
+  list-style: none;
+}
+
+/* -------------------------
     RESPONSIVE BREAKPOINT
 ----------------------------*/
 /* For Mobile */
