@@ -55,13 +55,16 @@ a {
     GENERAL
 ----------------------------*/
 
-.bg {
+nav {
   background: transparent;
-  transition: 0.2s ease;
+  transition: 0.5s ease;
 }
 
-.bg .scrolled {
-  background-color: #4dc47d;
+nav.gantiwarna {
+  background-color: #4dc47d !important;
+}
+.fa-heart {
+  color: rgb(255, 51, 0);
 }
 
 #about,
@@ -301,6 +304,6 @@ footer .social-icon li {
     margin-top: -5em;
   }
   #contact .form-control {
-    margin-top: 1em;
+    margin-top: 2em;
   }
 }

@@ -1,7 +1,3 @@
-$(window).scroll(function () {
-  $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
-});
-
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,
@@ -39,4 +35,9 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+});
+
+window.addEventListener("scroll", function () {
+  var nav = document.querySelector("nav");
+  nav.classList.toggle("gantiwarna", window.scrollY > 0);
 });
