@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* -------------------------
+    TYPOGRAPHY
+----------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 50px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 0;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+h4 {
+  color: #505050;
+  font-size: 18px;
+  line-height: 28px;
+}
+p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+}
+a {
+  text-decoration: none;
+}
+/* -------------------------
+    GENERAL
+----------------------------*/
+
+nav {
+  background: transparent;
+  transition: 0.5s ease;
+}
+
+nav.gantiwarna {
+  background-color: #4dc47d !important;
+}
+
+#about,
+#articles,
+#group,
+#contact,
+footer
+
+/* -------------------------
+    MENU
+----------------------------*/
+
+.navbar .navbar-brand {
+  font-weight: normal;
+  font-size: 25px;
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 0;
+  text-transform: uppercase;
+  transition: all-ease-in 0.4s;
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background: transparent;
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: transparent;
+  transition: width 0.3s ease, background-color 0.3s ease;
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+/* -------------------------
+    CONTENT
+----------------------------*/
