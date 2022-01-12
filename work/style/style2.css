@@ -156,10 +156,10 @@ footer
 /* -------------------------
     CONTENT
 ----------------------------*/
-/* .content {
+.content {
   background-color: white;
-  margin-top: -300px;
 }
 .content p {
+  font-size: 1.1em;
   color: black;
-} */
+}
