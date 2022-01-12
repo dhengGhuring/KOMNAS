@@ -12,6 +12,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <!-- My CSS -->
     <link rel="stylesheet" href="../style/style2.css" />
 
@@ -56,23 +63,66 @@
     <!-- End Header -->
 
     <!-- Hero -->
-    <section>
+    <section id="home">
       <img src="t1.jpg" alts="" class="img-fluid w-100" />
       <div class="container">
         <div class="row">
-          <div class="col">
-            <h1>asdasd</h1>
-            <p>asdasda</p>
+          <div class="home-text">
+            <h1>A DAY MADE OF GLASS</h1>
+            <h2>
+              Berikan Pendapat Kamu Tentang Kehadiran Komputer pada Masyarakat
+            </h2>
           </div>
         </div>
       </div>
+      <div class="overlay"></div>
     </section>
     <!-- End Hero -->
+
+    <!-- Content -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="content p-5">
+            <p>
+              Kemajuan teknologi memang sangat pesat dan tentunya banyak
+              menghasilkan nilai positif untuk masyarakat atau penggunanya.
+              Melihat dari vidio tersebut teknologi sudah berkembang sampai
+              menuju penggunaan media platform yang lebih fleksibel serta
+              kreatif. Semua informasi juga dapat dengan mudah didapat.
+              Segalanya serba digital mulai dari menjalankan aktivitas atau
+              rutinitas harian, pekerjaan dan sampai aktivitas pribadi
+              dipermudah.
+
+              <br /><br />
+              Tentunya hal tersebut sangat bagus namun tidak semua hal baik
+              dapat aka selalu baik, dari vidio tersebut Saya sempat terfikirkan
+              bagaimana dengan para pekerja fisik atau profesi profesi yang
+              aktivitasnya memerlukan tenaga manusia itu sendiri. Semua itu bisa
+              tergantikan dengan sangat cepat dan mengerikan bagi sebagian
+              masyarakat yang tentunya belum mampu memiliki teknologi tersebut.
+              Artinya perkembangan teknologi dalam vidio tersebut memang
+              sangatlah canggih tapi dilain sisi Saya juga terbayang bagaimana
+              dengan profesi masyarakat yang belum mampu menggunakan dan
+              mendapatkan kemajuan tersebut.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- End Content -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- My Script -->
+    <script>
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("gantiwarna", window.scrollY > 0);
+      });
+    </script>
   </body>
 </html>
